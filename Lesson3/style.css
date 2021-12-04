@@ -1,0 +1,31 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+.h1 {
+    color: green;
+}
+a {
+    text-decoration: none;
+    color: #fb3114;
+}
+a:hover {
+    color: #ff6b15;
+}
+.row {
+    margin: 0px -18px;
+    padding: 8px;
+}
+.column {
+    float: left;
+    width: 25%;
+}
+.content {
+    background-color: #32f5ce;
+    padding: 10px;
+    border: 1px solid #28c5a6;
+}
+.row,
+.row > .column {
+    padding: 8px;
+}
